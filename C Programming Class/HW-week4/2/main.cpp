@@ -7,9 +7,6 @@ int main() {
   cout << "please enter three integer number"<<"\n";
   int x,y,z;
   cin>>x>>y>>z;
-//  int a = (x-y)*(x+z);
-//  int b = ((x+y+z)*(x+y+z))+1;
-  
   
 if(((x+y+z)*(x+y+z))-1 == 0){
 cout<<"invalid numbers (The root of the denominator of the equation becomes zero)";
